@@ -34,5 +34,6 @@ export default function Page() {
       <FaqContact lang={lang} />
       <SiteFooter lang={lang} setLang={setLang} />
     </>
+    
   );
 }
