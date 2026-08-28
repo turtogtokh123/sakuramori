@@ -1,0 +1,12 @@
+@import url("./tokens/fonts.css");
+@import url("./tokens/colors.css");
+@import url("./tokens/typography.css");
+@import url("./tokens/spacing.css");
+@import url("./tokens/elevation.css");
+@import url("./tokens/motion.css");
+html,body{margin:0}
+body{background:var(--bg-page);color:var(--text-body);font-family:var(--font-body);-webkit-font-smoothing:antialiased}
+a{color:var(--text-link)}
+a:hover{color:var(--sakura-700)}
+::selection{background:var(--sakura-200)}
+img,svg{max-width:100%}

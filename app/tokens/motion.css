@@ -1,0 +1,10 @@
+:root{
+  --ease-standard:cubic-bezier(.4,0,.2,1); /* @kind other */
+  --ease-out-soft:cubic-bezier(.16,.84,.44,1); /* @kind other */
+  --ease-in-out-calm:cubic-bezier(.45,.05,.55,.95); /* @kind other */
+  --dur-instant:90ms; /* @kind other */
+  --dur-fast:160ms; /* @kind other */
+  --dur-normal:260ms; /* @kind other */
+  --dur-slow:520ms; /* @kind other */
+  --dur-petal:9s; /* @kind other */ /* drifting petal ambient loop */
+}

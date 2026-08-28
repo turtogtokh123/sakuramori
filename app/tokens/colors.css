@@ -1,0 +1,52 @@
+:root{
+  /* ── Sakura (primary) — cherry blossom, warm pink ───────────── */
+  --sakura-50:#FDF3F5;--sakura-100:#F9DFE5;--sakura-200:#F3C4D0;--sakura-300:#EBA3B4;
+  --sakura-400:#E08497;--sakura-500:#CF6A80;--sakura-600:#B5546B;--sakura-700:#8F3F52;
+
+  /* ── Washi (surfaces) — mulberry paper, warm off-white ──────── */
+  --washi-50:#FEFCFA;--washi-100:#FBF6F1;--washi-200:#F5EDE4;--washi-300:#EADFD3;
+  --washi-400:#DACBBB;--washi-500:#C4B2A1;
+
+  /* ── Sumi (ink, neutrals) ───────────────────────────────────── */
+  --sumi-900:#1F1A17;--sumi-800:#2B2320;--sumi-700:#483C35;--sumi-600:#6B5B52;
+  --sumi-500:#8C7D73;--sumi-400:#AFA298;
+
+  /* ── Accents ────────────────────────────────────────────────── */
+  --urushi-500:#A63A34;   /* lacquer red — seals, stamps, sale marks */
+  --kohaku-500:#C98A2E;   /* amber — highlight, ratings */
+  --matcha-500:#6E8B4A;   /* matcha green — in stock, success */
+  --ai-700:#33506F;       /* indigo — links, informational */
+
+  /* ── Semantic aliases ───────────────────────────────────────── */
+  --bg-page:var(--washi-100);
+  --bg-page-alt:var(--washi-200);
+  --surface-card:var(--washi-50);
+  --surface-raised:#FFFFFF;
+  --surface-ink:var(--sumi-800);
+  --surface-sakura:var(--sakura-50);
+
+  --text-body:var(--sumi-800);
+  --text-heading:var(--sumi-900);
+  --text-muted:var(--sumi-600);
+  --text-subtle:var(--sumi-500);
+  --text-inverse:var(--washi-50);
+  --text-accent:var(--sakura-700);
+  --text-link:var(--ai-700);
+  --text-price:var(--urushi-500);
+
+  --border-hairline:var(--washi-300);
+  --border-strong:var(--washi-400);
+  --border-ink:var(--sumi-800);
+  --border-focus:var(--sakura-500);
+
+  --action-primary:var(--sakura-600);
+  --action-primary-hover:var(--sakura-700);
+  --action-primary-text:#FFFFFF;
+  --action-secondary:var(--sumi-800);
+  --action-secondary-hover:var(--sumi-900);
+
+  --state-success:var(--matcha-500);
+  --state-warning:var(--kohaku-500);
+  --state-danger:var(--urushi-500);
+  --state-info:var(--ai-700);
+}

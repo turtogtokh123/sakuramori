@@ -1,0 +1,6 @@
+/* Sakuramori webfonts — all served from Google Fonts (no licensed brand fonts were supplied).
+   Shippori Mincho — display serif, Japanese + Latin (mincho = the brush-cut serif of Japanese print)
+   Noto Serif      — display fallback that covers Mongolian Cyrillic
+   Zen Kaku Gothic New — body sans, Japanese + Latin
+   Noto Sans       — body fallback covering Cyrillic */
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700;800&family=Noto+Serif:wght@400;500;600;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Noto+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap");
