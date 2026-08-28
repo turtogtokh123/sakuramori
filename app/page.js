@@ -8,6 +8,7 @@ import { FaqContact, SiteFooter } from "./sections/Faq.js";
 
 const LUCIDE_SRC = "https://unpkg.com/lucide@0.446.0/dist/umd/lucide.min.js";
 
+
 export default function Page() {
   const [lang, setLang] = React.useState("JP");
   React.useEffect(() => {
@@ -34,6 +35,6 @@ export default function Page() {
       <FaqContact lang={lang} />
       <SiteFooter lang={lang} setLang={setLang} />
     </>
-    
+
   );
 }
